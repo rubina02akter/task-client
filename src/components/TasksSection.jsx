@@ -5,8 +5,8 @@ import { FiEdit, FiTrash2, FiCheck } from "react-icons/fi";
 import Swal from "sweetalert2";
 
 const taskCategories = ["Pending", "Ongoing", "Completed"];
-const SERVER_URL = "http://localhost:5000";
-// const SERVER_URL = "https://management-server-rosy.vercel.app/";
+// const SERVER_URL = "http://localhost:5000";
+const SERVER_URL = "https://server-eight-jade-75.vercel.app/";
 
 const TasksSection = () => {
   const [taskList, setTaskList] = useState([]);
